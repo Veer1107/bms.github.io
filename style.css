@@ -1,0 +1,61 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background: #121212;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+}
+.container{
+    width:375px;
+    height: 520px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 4px 4px 30px rgba(0,0,0,0.06);
+    padding: 20px;
+}
+.container form{
+    width: 100%;
+    border: 1px solid rgb(82,74,235);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+
+}
+.container form input{
+    border: none;
+    outline: none;
+    box-shadow: none;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 10px;
+}
+.container form i{
+    padding-left: 10px;
+}
+.artists{
+    padding-top: 20px;
+    cursor: pointer;
+}
+.artist{
+    display: flex;
+   align-items: center;
+}
+
+.artist img{
+    width:90px;
+    height:90px;
+    object-fit: cover;
+}
+.artist .details{
+    font-size: 16px;
+    color: #1d1d1d;
+    padding-left: 15px;
+}
+.details h3{
+    font-size:13px ;
+}
